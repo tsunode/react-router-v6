@@ -7,8 +7,6 @@ export const Dashboard = () => {
     console.log('teste')
   }
 
-  if(is) console.log('teste 2');
-
   useEffect(() => {
     setIs(!is);
   },[is])
@@ -16,7 +14,7 @@ export const Dashboard = () => {
   return(
     <>
       <Outlet />
-      <h1>Dashboarde</h1>
+      <h1>Dashboard</h1>
     </>
   ) 
 };
